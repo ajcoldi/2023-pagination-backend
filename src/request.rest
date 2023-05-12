@@ -1,0 +1,27 @@
+ GET http://localhost:3000/api/users?page=3&limit=4
+
+###
+
+GET http://localhost:3000/api/users?page=3&limit=4&sortBy=name&order=desc
+
+###
+
+GET http://localhost:3000/api/users?page=3&limit=4&sortBy=name&order=asc
+
+###
+
+GET http://localhost:3000/api/users?page=3&limit=4&sortBy=age&order=asc
+
+###
+
+GET http://localhost:3000/api/users?page=3&limit=4&sortBy=age&order=desc
+###
+
+GET http://localhost:3000/api/users?page=1&limit=4&sortBy=age&order=desc&tagMode=any&tags=developer,hiker
+###
+# search
+GET  http://localhost:3000/api/users?page=1&limit=4&sortBy=age&order=&search=mia
+
+###
+# search
+GET  http://localhost:3000/api/users/tags
